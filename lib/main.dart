@@ -14,8 +14,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return FlutterWebFrame(
-        maximumSize: const Size(700.0, 812.0), // Maximum size
-        enabled: kIsWeb, // default is enable, when disable content is full size
+        maximumSize: const Size(700.0, 812.0),
+        enabled: kIsWeb,
         backgroundColor: Colors.grey,
         builder: (context) {
           return MaterialApp(

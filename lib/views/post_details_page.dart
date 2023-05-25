@@ -277,7 +277,6 @@ class _PostDetailsScreenState extends State<PostDetailsScreen> {
                 )
               ],
             ),
-            // const SizedBox(height: 16),
             Padding(
               padding: const EdgeInsets.symmetric(vertical: 16.0),
               child: Row(
@@ -298,7 +297,6 @@ class _PostDetailsScreenState extends State<PostDetailsScreen> {
               height: 2,
               color: const Color(0xffF7F8FA),
             ),
-
             const CommentWidget(
               userIcon: PngFiles.userIcon,
               userName: '안녕 나 응애 ',
